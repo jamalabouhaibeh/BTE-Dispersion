@@ -127,6 +127,45 @@ python dispersion_bte.py [options]
 ```
 
 ---
+## Citation
+
+If you use this software in your research, please cite it as:
+
+> Abou Haibeh, J. (2026). *Phonon Dispersion Generator for ShengBTE* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20275233
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20275233.svg)](https://doi.org/10.5281/zenodo.20275233)
+
+### Please also cite the underlying tools
+
+This tool is a post-processor for **ShengBTE** and uses **spglib**, **seekpath** and **ASE** internally. If you use it, please also cite:
+
+- **ShengBTE** — W. Li, J. Carrete, N. A. Katcho, and N. Mingo,
+  *ShengBTE: A solver of the Boltzmann transport equation for phonons*,
+  Comput. Phys. Commun. **185**, 1747–1758 (2014).
+  https://doi.org/10.1016/j.cpc.2014.02.015
+
+- **spglib** — A. Togo, K. Shinohara, and I. Tanaka,
+  *Spglib: a software library for crystal symmetry search*,
+  Sci. Technol. Adv. Mater. Methods **4**, 2384822–2384836 (2024).
+  https://doi.org/10.1080/27660400.2024.2384822
+
+- **seekpath** — Y. Hinuma, G. Pizzi, Y. Kumagai, F. Oba, and I. Tanaka,
+  *Band structure diagram paths based on crystallography*,
+  Comput. Mater. Sci. **128**, 140–184 (2017).
+  https://doi.org/10.1016/j.commatsci.2016.10.015
+
+- **ASE (Atomic Simulation Environment)** — A. H. Larsen et al.,
+  *The Atomic Simulation Environment—a Python library for working with atoms*,
+  J. Phys. Condens. Matter **29**, 273002 (2017).
+  https://doi.org/10.1088/1361-648X/aa680e
+
+---
+
+## Acknowledgments
+
+Built with [NumPy](https://numpy.org) and [Matplotlib](https://matplotlib.org).
+
+---
 
 ## References
 
