@@ -1,6 +1,6 @@
 # Phonon Dispersion Generator for ShengBTE
 
-[![DOI](https://zenodo.org/badge/1241939243.svg)](https://doi.org/10.5281/zenodo.20275232)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20275233.svg)](https://doi.org/10.5281/zenodo.20275233)
 
 
 This Python script generates phonon dispersion curves directly from [ShengBTE](https://bitbucket.org/sousaw/shengbte) calculation files. The script reads the input `CONTROL` file together with the ShengBTE output files `BTE.qpoints` and `BTE.omega`, then produces both a phonon dispersion figure and a clean tabulated data file.
