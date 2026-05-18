@@ -20,7 +20,7 @@ Three files from a completed ShengBTE run are required:
 
 ## Installation
 
-Python ≥ 3.8 together with four packages:
+Python ≥ 3.8 together with five packages:
 
 ```bash
 pip install numpy matplotlib ase seekpath spglib
