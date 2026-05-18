@@ -1,5 +1,8 @@
 # Phonon Dispersion Generator for ShengBTE
 
+[![DOI](https://zenodo.org/badge/1241939243.svg)](https://doi.org/10.5281/zenodo.20275232)
+
+
 This Python script generates phonon dispersion curves directly from [ShengBTE](https://bitbucket.org/sousaw/shengbte) calculation files. The script reads the input `CONTROL` file together with the ShengBTE output files `BTE.qpoints` and `BTE.omega`, then produces both a phonon dispersion figure and a clean tabulated data file.
 
 Crystallographic analysis is handled through [Seekpath](https://github.com/giovannipizzi/seekpath) and [spglib](https://spglib.readthedocs.io/), ensuring that the high-symmetry coordinates, labels, and reciprocal-space path are derived from the detected Bravais lattice of the input structure. 
